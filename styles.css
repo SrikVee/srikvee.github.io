@@ -1,14 +1,157 @@
-header{
-    background-color:gray;
-    align-content: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+    color: white;
+    background-color: black;
+    padding-left: 2.0%;
+    padding-right: 2.0%;
+    font-family:'Verdana';
 }
-.article{
-    background-color:khaki;
-    font-family: Arial, Helvetica, sans-serif;
+
+header{
+    background-color:black;
+    align-content: center;
+    font-family:'Verdana';
+}
+.nav{
+    align-content:right;
+}
+article {
+    width: 100%;
+    height: 350px;
+    shape-outside: rectangle();
+    align-content: center;
+    padding: 2.0%;
+    float: left;
+    border: 2px solid black;
+    color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color:black;
+    font-size: 22px;
+    font-family:'Tahoma';
 }
 footer{
-    background-color:white;
+    color:white;
+    background-color:black;
     align-content: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Trebuchet MS';
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    height: 75px;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Geneva';
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17.5px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:none;
+  color: rgb(27, 177, 218);
+}
+
+/* Add a color to the active/current link */
+/*.topnav a.active {
+  background-color: aqua;;
+  color: white;
+} */
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.subscription{
+    margin-left: 200px;
+    align-content:center;
+    /*shape-outside:rectangle;*/
+    height: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border:none;
+    border-radius: 50px;
+    background-color: rgb(62, 150, 232);
+}
+
+.contactbutton{
+  font-family: 'Trebuchet MS';
+  color: white;
+  align-content:center;
+  /*shape-outside:rectangle;*/
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:0px;
+  padding-bottom:0px;
+  border-color:white;
+  border-width: 5px;
+  border-radius:50px;
+  background-color: black;
+}
+
+
+/* Style the contact section */
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.social-media {
+  flex-basis: 45%;
+}
+
+.social-media a {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form {
+  flex-basis: 45%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width:200%;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  align-items: center;
+  width: 200%;
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #444;
 }
