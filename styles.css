@@ -1,49 +1,148 @@
 body {
     color: white;
     background-color: black;
-    padding-left: 2.0%;
-    padding-right: 2.0%;
+    padding-left: 1.0%;
+    padding-right: 1.0%;
     font-family:'Verdana';
+}
+
+h1 { 
+  font-family:  Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; 
+} 
+
+h2 { 
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 26px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; 
+} 
+h3 { 
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; } 
+p { 
+  font-family:  Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 16px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; } 
+blockquote { 
+  font-family:Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; 
+}
+pre { 
+  font-family: Calibri,Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif; 
+  font-size: 13px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 26px; 
 }
 
 header{
     background-color:black;
     align-content: center;
-    font-family:'Verdana';
+    font-family:Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 }
 .nav{
-    align-content:right;
+    align-content:center;
 }
-article {
+.introduction {
     width: 100%;
-    height: 350px;
+    height:500px;
     shape-outside: rectangle();
     align-content: center;
-    padding: 2.0%;
+    padding-left: 2.0%;
+    padding-right: 0.0%;
     float: left;
     border: 2px solid black;
-    color: white;
-    border-radius: 30px;
+    color: black ;
+    border-radius: 20px;
     box-sizing: border-box;
-    background-color:black;
-    font-size: 22px;
-    font-family:'Tahoma';
+    background-color:gainsboro;
+    font-family:'Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif';
+}
+
+.highlights {
+  width: 100%;
+  height:500px;
+  shape-outside: rectangle();
+  align-content: center;
+  padding-left: 2.0%;
+  padding-right: 0.0%;
+  float: left;
+  border: 2px solid black;
+  color: black ;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color:rgb(121, 121, 121);
+  font-family:'Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif';
+}
+
+.contacts-main {
+  width: 100%;
+  height:300px;
+  shape-outside: rectangle();
+  align-content: center;
+  padding-left: 2.0%;
+  padding-right: 0.0%;
+  float: left;
+  border: 2px solid gainsboro;
+  color: gainsboro;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color:black;
+  font-family:Palatino,'Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif';
+}
+
+.whitebackground {
+  width: 100%;
+  height: 350px;
+  shape-outside: rectangle();
+  align-content: center;
+  padding: 2.0%;
+  float: left;
+  border: 2px solid black;
+  color: gainsboro;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color:black;
+  font-size: 22px;
+  font-family:'Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif';
 }
 footer{
-    color:white;
-    background-color:black;
+    height:50px;
+    color:black;
+    background-color:antiquewhite;
+    border: 2px solid purple;
+    border-radius: 20px;
     align-content: center;
-    font-family:'Trebuchet MS';
+    font-family:'Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif';
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-    height: 75px;
-    color: white;
+    height: 2%;
+    color: gainsboro;
     background-color: black;
     overflow: hidden;
-    font-family: 'Geneva';
+    font-family: 'Trebuchet MS';
 }
 
 /* Style the links inside the navigation bar */
@@ -59,7 +158,7 @@ footer{
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color:none;
-  color: rgb(27, 177, 218);
+  color: rgb(33, 149, 181);
 }
 
 /* Add a color to the active/current link */
@@ -74,7 +173,6 @@ footer{
 }
 
 .subscription{
-    margin-left: 200px;
     align-content:center;
     /*shape-outside:rectangle;*/
     height: 50px;
@@ -86,27 +184,32 @@ footer{
 }
 
 .contactbutton{
-  font-family: 'Trebuchet MS';
-  color: white;
+  font-family: Trebuchet MS,sans-serif;
+  color: gainsboro;
   align-content:center;
   /*shape-outside:rectangle;*/
-  padding-left:35px;
-  padding-right:35px;
-  padding-top:0px;
-  padding-bottom:0px;
-  border-color:white;
-  border-width: 5px;
+  padding-left:15px;
+  padding-right:15px;
+  border-color:gainsboro;
+  border-width: 1px;
   border-radius:50px;
   background-color: black;
 }
 
+.contactbutton:hover{
+  font-family: Trebuchet MS,sans-serif;
+  color: black;
+  background-color: gainsboro;
+}
 
 /* Style the contact section */
 .contact {
+  font-family: Palatino,serif;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 10%;
+  margin-left: 2%;
 }
 
 .social-media {
@@ -154,4 +257,40 @@ footer{
 
 .contact-form button:hover {
   background-color: #444;
+}
+
+i:hover {
+  transition: 0.4s;
+  cursor: pointer;
+}
+a:link, i{
+  color:black;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  header,
+  main,
+  footer {
+      width: 100%;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+  header,
+  main,
+  footer {
+      width: 75%;
+  }
+}
+
+
+@media (min-width: 993px) {
+  header,
+  main,
+  footer {
+      width: 50%;
+  }
 }
